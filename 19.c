@@ -20,5 +20,5 @@ int main() {
 	printf("Check if your given number is prime or not: ");
 	scanf(" %d", &x);
 	is_prime(x) ? printf("%d is a prime number", x) : printf("%d is not a prime number", x);	
-	
+	return 0;
 }
