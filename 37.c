@@ -8,13 +8,13 @@ void to_continue();
 int main() {
 	char choice;
 	
-	float arr[10], sum, i;
+	float x, sum, i;
 
 	printf("\n--- The sum of 10 numbers from keyboard ---\n");
 	for (int i=0;i<10;i++) {
 		printf("number %d : ", i+1);
-		scanf(" %f", &arr[i]);
-		sum += arr[i];
+		scanf(" %f", &x);
+		sum += x;
 	}
 
 	printf("The sum is %.2f\n", sum);
@@ -37,6 +37,3 @@ void to_continue() {
 		printf("Good Bye!");
 	}
 }
-
-
-
