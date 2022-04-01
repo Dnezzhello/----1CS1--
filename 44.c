@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* 1CS1 ສຸພະໄຊ ເນົາວະລາດ */
-// a program in c to perform addition of two matrix
+// a program in c to perform addition of two matrices
 
 void to_continue();
 
