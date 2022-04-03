@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*1CS1 ສຸພະໄຊ ເນົາວະລາດ*/
-//  a program to print String and findout their length without using library function
+//a program to print String and findout their length without using library function
 
 void to_continue();
 
