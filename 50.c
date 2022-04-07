@@ -9,7 +9,7 @@ int main() {
 
 	char str[40];
 	printf("--- Palindrome Checker ---\n");
-	printf("Input your to check if it is palindrome: ");
+	printf("Input your string to check if it is palindrome: ");
 	scanf("%[^\n]s", &str);
 
 	if (is_palindrome(str)) {
