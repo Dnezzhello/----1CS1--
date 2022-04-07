@@ -10,12 +10,12 @@ int main() {
 	char str[40];
 	printf("--- Palindrome Checker ---\n");
 	printf("Input your string to check if it is palindrome: ");
-	scanf("%[^\n]s", &str);
+	scanf(" %[^\n]s", &str);
 
 	if (is_palindrome(str)) {
-		printf("\nThis string is palindrome");
+		printf("\nThis string is palindrome\n");
 	} else {
-		printf("\nThis string is not palindrome");
+		printf("\nThis string is not palindrome\n");
 	}
 	
 	to_continue();
