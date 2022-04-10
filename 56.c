@@ -12,6 +12,7 @@ int main() {
 	printf("Enter a value for x and y (separated by a space):");
 	scanf("%f %f", &x, &y);
 	printf("The sum of %.2f and %.2f is %.2f", x, y, sum(&x, &y));
+	to_continue();
 
 	return 0;
 }
